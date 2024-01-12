@@ -14,14 +14,19 @@
 <body>
     <div id="dapinkbox">
         <div class="dapinkbox">
-        <h1 onclick="daAlert()">Click here!</h1>
+        <h1 onclick="console.log('The div was clicked.')"><button onclick="myFunction()">Click Here!</button></h1>
         </div>
+        
     </div>
     
-</body>
-<script src="./js/myJS.js">
+<script>
+    function myFunction() {
+        alert("Hello, there.");
+    }
 </script>
 
 <style>
     div{background-color:rgb(255, 212, 246); width: 300px; height: 200px;}
 </style>
+</body>
+</html>
